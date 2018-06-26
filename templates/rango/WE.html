@@ -1,0 +1,345 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+<div id="WE_ZM" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{% static "images/WE3.jpg"%}" alt="WE">
+
+
+    </div>
+     <div class="item">
+           <img src="{% static "images/WE2.jpg"%}" alt="WE2">
+               <div class="carousel-caption">
+               </div>
+       </div>
+       <div class="item">
+           <img src="{% static "images/WE1.jpg"%}" alt="WE1">
+               <div class="carousel-caption">
+               </div>
+       </div>
+
+
+  </div>
+
+  <!-- Controls -->
+     <a class="left carousel-control" href="#WE_ZM" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#WE_ZM" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+     </a>
+</div>
+<h1 align="center" style="color:yellow">
+    战队简介
+</h1>
+<p>
+    TeamWE是一家中国电子竞技俱乐部，成立于2005年4月21日。旗下拥有英雄联盟分部、英魂之刃分部等。
+
+</p>
+<p>
+  魔兽争霸3分部的李晓峰选手蝉联了WCG05、06年的魔兽争霸3的世界冠军。 [1]
+2012年英雄联盟分部取得ILP5全球总决赛冠军， [2]  2016年取得LPL春季赛亚军，2017年4月29日夺得第一个LPL联赛冠军。 [3]
+</p>
+<h1 align="center" style="color:yellow">
+    战队荣誉
+</h1>
+
+<h5>
+    2011年 WCG2011中国区选拔赛亚军
+</h5>
+<h5>
+   2012年 S2全球总决赛八强
+</h5>
+
+<h5>
+   2013年 LPL春季赛四强
+</h5>
+<h5>
+  2014年　LPL夏季赛四强
+</h5>
+<h5>
+  2015年 IEM9世界总决赛
+</h5>
+<h5>
+   全国电子竞技大赛冠军
+</h5>
+<h5>
+  2016年 LPL春季赛季军
+</h5>
+<h5>
+  2017年　LPL春季赛冠军
+</h5>
+
+<h1 align="center" style="color:yellow">
+    战队成员
+</h1>
+
+<div class="form-group col-md-2">
+          <img src="{% static "images/9577.jpg"%}" alt="9577">
+     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#957" >
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+
+</div>
+<div class=" col-md-3"></div>
+<div class="form-group col-md-2">
+    <img src="{% static "images/CD.jpg"%}" alt="CD">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#CD">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+<div class=" col-md-3" a></div>
+<div class="form-group col-md-2">
+          <img src="{% static "images/XY.jpg"%}" alt="XY">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#XY">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+
+<div class="form-group col-md-2">
+          <img src="{% static "images/MY.jpg"%}" alt="MY">
+     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#MY" >
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+
+</div>
+<div class=" col-md-3"></div>
+<div class="form-group col-md-2">
+    <img src="{% static "images/ZERO.jpg"%}" alt="ZERO">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#ZERO">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+<div class=" col-md-3" a></div>
+<div class="form-group col-md-2">
+    <img src="{% static "images/BEN.jpg"%}" alt="BEN">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#BEN">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+
+
+<h1 align="center" style="color:yellow">
+    战队视频
+</h1>
+<p align="center">
+    WE战队2017年LPL春季赛夺冠纪录片
+</p>
+
+
+<div class="col-md-2"></div>
+
+<video  class="col-md-8" id="video1" width="500" style="margin-top:15px; " controls="controls" >
+    <source src="{% static "video/WEE.mp4" %}" type="video/mp4" />
+</video>
+
+
+<div class="col-md-2"></div>
+
+<center>
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+data-target="#myModal">
+扫描二维码了解更多
+</button>
+</center>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">扫描二维码下载掌上英雄联盟</h4>
+       </div>
+      <div class="modal-body">
+        <img src="{% static "images/ZM.jpg"%}" alt="掌上英雄联盟">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="957" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="957Label">选手信息</h4>
+       </div>
+      <div class="modal-body">
+
+          <center><img src="{% static "images/957.jpg"%}" alt="UZI"></center>
+          <p>柯昌宇
+　　          游戏ID：957
+　　          1993年9月21日出生，原WE.F战队上单选手，2017赛季WE上单选手。2011年柯昌宇第一次接触到英雄联盟，
+              在2014年加入WE.F战队开始自己的职业生涯，在2016年取得LPL春季赛季军，LPL夏季赛殿军。
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="CD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="CDLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/CD2.jpg"%}" alt="scount"></center>
+          <p>向人杰
+　　          游戏ID：condi
+　　          1996年11月7日，出生于湖南，原M3战队打野选手，2016赛季转至WE战队担任打野。从小就对电子游戏有浓厚的兴趣，
+              在2015年加入M3战队开始自己的职业生涯，在2016年取得LPL春季赛季军 ，LPL夏季赛殿军。
+
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="XY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="XYLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/XY2.jpg"%}" alt="scount"></center>
+          <p>苏汉伟
+　　          游戏ID：xiye
+　　          中国英雄联盟职业选手，原WE青训队成员，2015赛季转至WE战队担任中单。苏汉伟于2011年接触英雄联盟，
+              在2013年加入WE青训队开始自己的职业生涯，2014年取得LSPL春季赛冠军，2015年取得全国电子竞技大赛冠军，
+              2016年取得LPL春季赛季军。
+
+
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="MY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="MYLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/MY2.jpg"%}" alt="scount"></center>
+          <p> 陈圣俊
+　　          游戏ID：Mystic
+　　          1995年1月8日出生，英雄联盟职业选手，原韩国Jin Air战队的ADC选手，2017赛季WE战队ADC选手。2013年陈圣俊加入了
+              Jin Air战队开始自己的职业生涯，在2015年夺得IEM9世界总决赛亚军， 在2016年夺得LPL春季赛季军、
+              LPL夏季赛第四名，在2017年LPL春季赛夺得冠军
+
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="ZERO" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="ZEROLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/ZERO2.jpg"%}" alt="scount"></center>
+          <p>尹景燮
+　           　游戏ID:Zero
+　　              出生于韩国，原KTA战队辅助，2014年6月转会到皇族战队 ，在2016赛季转会至WE战队担任辅助选手。
+              尹景燮很喜欢玩游戏，接触到英雄联盟不久，就加入了KTA战队参加比赛，在2014年获得全球总决赛亚军
+              ，2016年获得LPL春季赛季军，LPL夏季赛殿军。
+
+
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="BEN" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="BENLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/BEN2.jpg"%}" alt="scount"></center>
+          <p>南东贤
+　　          游戏ID：Ben
+　　          2016年7月12日LPL职业联赛的官网战队专题页面更新了IG战队的阵容名单，其中包括两名新队员：
+              ADC选手Marge冯磊和辅助选手Ben南东贤磊。两名新选手Ben和Marge此前并没有参加过任何职业联赛，
+              他们是直接从路人排位中招募的新秀选手，而Ben参加了IG战队的储备联赛！2016年12月18日原
+              Invictus Gaming辅助位选手(南东炫，ID：Ben)以转会的形式入队，将担任Support位。
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+
+
+
+
+
+
+

@@ -1,0 +1,332 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block body_block %}
+<div id="EDG_ZM" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{% static "images/EDG1.jpg"%}" alt="EDG1">
+
+
+    </div>
+     <div class="item">
+           <img src="{% static "images/EDG2.jpg"%}" alt="EDG2">
+               <div class="carousel-caption">
+               </div>
+       </div>
+       <div class="item">
+           <img src="{% static "images/EDG3.jpg"%}" alt="EDG3">
+               <div class="carousel-caption">
+               </div>
+       </div>
+
+
+  </div>
+
+  <!-- Controls -->
+     <a class="left carousel-control" href="#EDG_ZM"" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#EDG_ZM" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+     </a>
+</div>
+<h1 align="center" style="color:yellow">
+    战队简介
+</h1>
+<p>
+    EDward Gaming（简称：EDG）是一家中国电子竞技俱乐部，于2013年9月13日在广州成立。旗下拥有英雄联盟、王者荣耀、绝地求生等分部。
+</p>
+<p>
+    英雄联盟分部在2014年取得LPL春季赛、夏季赛冠军，在2015年取得LPL春季赛冠军、MSI季中邀请赛冠军。在2016年取得LPL夏季赛冠军，德玛西亚杯五连冠，在2017年LPL夏季赛上再次夺得冠军。
+</p>
+<h1 align="center" style="color:yellow">
+    战队荣誉
+</h1>
+<h5>
+    2014年IET义乌国际电子竞技大赛LOL项目冠军
+</h5>
+<h5>
+   2014年LPL春季赛冠军
+</h5>
+<h5>
+  2014年LPL夏季赛冠军
+</h5>
+<h5>
+   2014年LPL夏季赛常规赛第一名
+</h5>
+<h5>
+   2014年总决赛中国赛区种子队
+</h5>
+<h5>
+   2015年LPL春季赛冠军
+</h5>
+<h5>
+  2015季中赛冠军
+</h5>
+<h1 align="center" style="color:yellow">
+    战队成员
+</h1>
+
+<div class="form-group col-md-2">
+          <img src="{% static "images/CZ1.jpg"%}" alt="厂长">
+     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#CZ" >
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+
+</div>
+<div class=" col-md-3"></div>
+<div class="form-group col-md-2">
+    <img src="{% static "images/SC.jpg"%}" alt="scout">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#SC">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+<div class=" col-md-3" a></div>
+<div class="form-group col-md-2">
+          <img src="{% static "images/MK.jpg"%}" alt="mekio">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#MK">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+
+<div class="form-group col-md-2">
+          <img src="{% static "images/IB.jpg"%}" alt="IB">
+     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#IB" >
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+
+</div>
+<div class=" col-md-3"></div>
+<div class="form-group col-md-2">
+    <img src="{% static "images/HA.jpg"%}" alt="HA">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#HA">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+<div class=" col-md-3" a></div>
+<div class="form-group col-md-2">
+          <img src="{% static "images/RAY.jpg"%}" alt="RAY">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+        data-target="#RAY">
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp详情 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+     </button>
+</div>
+
+
+<h1 align="center" style="color:yellow">
+    战队视频
+</h1>
+<p align="center">
+    EDG战队在2015年MSI季中冠军赛夺冠视频
+</p>
+
+
+<div class="col-md-2"></div>
+
+<video  class="col-md-8" id="video1" width="500" style="margin-top:15px; " controls="controls" >
+    <source src="{% static "video/EDG.mp4" %}" type="video/mp4" />
+</video>
+
+
+<div class="col-md-2"></div>
+
+<center>
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+data-target="#myModal" >
+扫描二维码了解更多信息
+</button>
+</center>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">扫描二维码下载掌上英雄联盟</h4>
+       </div>
+      <div class="modal-body">
+
+           <img src="{% static "images/ZM.jpg"%}" alt="掌上英雄联盟">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="CZ" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="CZLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+
+          <center><img src="{% static "images/CZ.jpg"%}" alt="厂长"></center>
+          <p>明凯，1993年7月25日出生于湖北武汉，游戏ID：Clearlove，中国《英雄联盟》电子竞技职业选手，EDG战队打野。
+                2012年8月，加入WE战队；同年12月，帮助WE战队在IPL5世界总决赛获得中国LOL首个世界冠军。2014年2月，转会加盟EDG战
+              队；同年5月， 帮助EDG战队获得LPL春季赛冠军；同年8月，帮助EDG战队获得LPL夏季赛冠军。2015年4月，帮助EDG战队获
+              得LPL春季赛 冠军；同年5月，帮助EDG战队获得英雄联盟季中邀请赛冠军，并被赛事官方评为MVP， [1]  成为中国第一位
+              两次夺得LOL 世界冠军的选手。 [2]  2016年8月，帮助EDG战队获得LPL夏季赛冠军。2017年9月，帮助EDG战队获得LPL夏季赛冠军。
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="SC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="SCLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/SC3.jpg"%}" alt="scount"></center>
+          <p>姓名：李烨灿 国籍：韩国 ID：scout 别名：LIYECAN 生日：1997年 战队：EDG中单
+              个人经历: 2015年，韩服最强王者第一位再次被SKT的队员获得，由于前段时间是S5总决赛，所以这次并不是SKT的主力选手。
+              这名叫做SKT T1 Scout的选手，是SKT战队的练习生，由于他去年年底就加盟了SKT，所以他已经正式成为SKT的队员。
+              2015年的LCK春季赛和夏季赛领奖台，Scout就是以SKT正式选手的身份上台趁了奖。
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="MK" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="MKlLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/MK2.jpg"%}" alt="scount"></center>
+          <p>田野，1998年6月6号出生于云南楚雄，游戏ID：Meiko，英雄联盟Ray战队的前辅助，EDG战队辅助选手。
+                田野于2014年开始参加职业比赛，在2015年LPL春季赛中获得冠军，2015赛季英雄联盟MSI季中赛获得冠军。
+               2018年6月，入选2018雅加达-巨港亚运会英雄联盟电子体育表演项目中国代表队。
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="IB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="IBlLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/IB2.jpg"%}" alt="scount"></center>
+          <p> 胡显昭，来自湖南衡阳， 游戏ID:iBoy，EDG战队ADC。
+              2017年7月12日，EDG替补ADC胡显昭正式年满17岁，满足出战《英雄联盟》职业联赛(LPL)的需求。而7月29日，
+              LPL夏季赛第七周第3个比赛日EDG对战LGD的比赛中，这位新秀将披挂上阵，首次登上LPL的正式赛场。
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="HA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="HAlLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/HA2.jpg"%}" alt="scount"></center>
+          <p>ID：EDG.Haro 姓名：陈文林 籍贯：中国江西生日：1998年7月21日
+            Haro在2017年初加入EDG青训营，后代表@Misaya若风lol的@TF电子竞技俱乐部征战LSPL联赛，擅长进攻性的打野英雄。
+              在EDG一队考核中表现出色，提拔晋升一队，加入后的首次杯赛亮相即帮助EDG斩获德杯冠军。
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="RAY" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="RAYlLabel">选手信息</h4>
+       </div>
+      <div class="modal-body">
+        <center><img src="{% static "images/RAY2.jpg"%}" alt="scount"></center>
+          <p>ID：ray
+            　　国籍：韩国
+
+            　　生日：1997年03月16日
+
+            　　段位：最强王者
+
+            　　擅长英雄：贾克斯
+
+            　　打法风格：激进
+
+            　　自我打分(10分)：1分
+
+            　　给队员打分(10分)：7分
+
+            　　最喜欢的职业选手：Flame
+
+            　　本赛季目标：全胜
+          </p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
